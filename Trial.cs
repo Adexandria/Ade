@@ -1,20 +1,37 @@
- public Trial {
-public static void main (String[] args) {
-string Firstname = "Adeola";
-string Lastname = "Aderibgbe";
+class Trial {
+ static void main (String[] args) {
+string Firstname = "";
+string Lastname =  "";
 DateTime Birtdate;
- Birthdate = new
-DateTime(1999,12,11)
-string Addresssline = "Rumuodara";
-string City="Port-harcourt"
-string State="Rivers";
-int Zipcode= 500192
-string Nation="Nigeria"
-int Age=18;
+string Addresssline = "";
+string City="";
+string State="";
+int Zipcode= 0;
+string Nation="";
+int Age=0;
 
-Console.WriteLine("{0} [1]", Lastname,Firstname);
+  
+  
+  Firstname="Adeoloa";
+  Lastname ="Aderibigbe";
+Birtdate =  new DateTime(1999,12,11);
+  Addressline= "Rumuodara";
+  City ="Port-harcourt";
+  State =" Rivers";
+  Zipcode="50092";
+  Nation = "Nigeria";
+  Age=18;
+  
+  
+  
+  
+  
+  
+  
+  
+Console.WriteLine(Lastname,Firstname);
 Console.WriteLine("[0] years old",Age);
-Console.WriteLine(Street+ ","+City +"," +Nation);
+Console.WriteLine(State + ","+  City + "," + Nation);
 Console.WriteLine($"Born on{Birthdate}");
                 }
 }
